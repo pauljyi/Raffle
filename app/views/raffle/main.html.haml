@@ -1,0 +1,18 @@
+%h1.text-center= "Raffle on Rails"
+%h4.text-center= "Rails up your ruby raffling needs"
+%br
+
+.menu.text-center
+  .row
+    .col-md-6.nameEntry
+      %form
+        %input#nameInput{type: "text", placeholder: "Add a name"}
+        %button.btn.btn-default#nameSubmit= "Add"
+    .col-md-6.options.text-center
+      .btn-group
+        %button.btn.btn-success#draw= "Draw"
+        %button.btn.btn-danger#reset= "Reset"
+
+%br
+.area
+  .ul

@@ -1,0 +1,56 @@
+// Place all the styles related to the raffle controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  background-color: #50adde;
+}
+
+body {
+  background-color: transparent !important;
+}
+
+input {
+  font-family: "Nunito" !important;
+}
+
+.btn {
+  font-family: "Nunito" !important;
+}
+
+h1, h4 {
+  color: white !important;
+  font-family: "Nunito" !important;
+  text-shadow: 2px 2px black;
+}
+
+li {
+  font-family: "Nunito" !important;
+  font-size: 1.4em;
+  margin: 0em !important;
+  list-style: circle;
+}
+
+.menu {
+  width: 60%;
+  margin: auto;
+}
+
+.area {
+  width: 60%;
+  min-height: 30vh;
+  max-height: 60vh;
+  overflow-y: scroll;
+  margin: auto;
+  border: 2px solid black;
+  padding: 5px 30px;
+  background-color: white;
+}
+
+.inline {
+  display: inline;
+}
+
+.highlight {
+  color: red;
+  font-style: bold;
+}
